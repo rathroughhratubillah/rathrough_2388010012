@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ratu Billah Lingga Suci — Company Profile</title>
+  <meta name="description" content="Ratu Billah Lingga Suci — perusahaan visioner yang menggabungkan tradisi dan inovasi untuk masa depan yang berkelanjutan." />
+  <style>
+    :root{
+      --accent:#0b7a6b;
+      --muted:#6b7280;
+      --bg:#f7fafc;
+      --card:#ffffff;
+      --maxw:1100px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+      background:var(--bg);
+      color:#0f172a;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    .container{max-width:var(--maxw);margin:0 auto;padding:24px;}
+    header{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
+    .brand img{width:56px;height:56px;object-fit:cover;border-radius:8px;box-shadow:0 2px 8px rgba(2,6,23,0.06)}
+    nav a{margin-left:18px;color:var(--muted);text-decoration:none;font-weight:600}
+    .hero{
+      background:linear-gradient(90deg,rgba(11,122,107,0.06),rgba(11,122,107,0.02));
+      border-radius:12px;padding:36px;display:grid;grid-template-columns:1fr 380px;gap:24px;align-items:center;
+    }
+    .hero h1{margin:0 0 12px;font-size:28px;line-height:1.12;color:#042a24}
+    .lead{margin:0 0 18px;color:var(--muted);font-size:15px}
+    .cta{display:inline-block;background:var(--accent);color:#fff;padding:12px 18px;border-radius:8px;text-decoration:none;font-weight:700}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.06)}
+    .stats{display:flex;gap:12px;margin-top:12px}
+    .stat{flex:1;padding:12px;border-radius:10px;background:linear-gradient(180deg,#fff,#fbfeff);text-align:center}
+    .stat strong{display:block;font-size:20px;color:#06211b}
+    section{margin-top:20px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    .vision, .mission{padding:18px;border-radius:12px;background:linear-gradient(180deg,#fff,#fbfeff)}
+    .team-grid{display:flex;gap:12px;flex-wrap:wrap}
+    .member{width:120px;text-align:center}
+    .member img{width:120px;height:120px;border-radius:12px;object-fit:cover;display:block;margin-bottom:8px}
+    footer{margin-top:32px;padding:18px 0;color:var(--muted);font-size:14px;text-align:center}
+    @media (max-width:880px){
+      .hero{grid-template-columns:1fr; text-align:center}
+      nav{display:none}
+      .brand img{width:48px;height:48px}
+    }
+    .contact-form{display:flex;flex-direction:column;gap:8px}
+    .contact-form input,.contact-form textarea{padding:10px;border-radius:8px;border:1px solid #e6eef0;font-size:14px}
+    .contact-form button{background:var(--accent);color:#fff;padding:10px 12px;border-radius:8px;border:0;font-weight:700}
+    .badge{display:inline-block;background:#e9f7f4;color:var(--accent);padding:6px 10px;border-radius:999px;font-weight:700;font-size:13px}
+    a.small{color:var(--muted);font-size:14px;text-decoration:none}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a class="brand" href="#">
+        <img src="https://gambar.cdn/rbls/logo.png" alt="Logo Ratu Billah Lingga Suci" />
+        <div>
+          <div style="font-weight:800">Ratu Billah Lingga Suci</div>
+          <div style="font-size:13px;color:var(--muted)">Tradisi | Inovasi | Keberlanjutan</div>
+        </div>
+      </a>
+      <nav>
+        <a href="#about">Tentang</a>
+        <a href="#vision">Visi</a>
+        <a href="#services">Layanan</a>
+        <a href="#contact">Hubungi</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <span class="badge">Visi Nusantara 2035</span>
+          <h1>Ratu Billah Lingga Suci — Mewujudkan Harmoni antara Warisan dan Masa Depan</h1>
+          <p class="lead">Kami adalah perusahaan visioner yang menggabungkan kearifan lokal, teknologi ramah lingkungan, dan kepedulian sosial untuk menciptakan solusi berkelanjutan yang berdampak nyata.</p>
+          <a class="cta" href="#contact">Mulai Kerja Sama</a>
+
+          <div class="stats" style="margin-top:18px">
+            <div class="stat">
+              <strong>15+</strong>
+              <span style="color:var(--muted)">Proyek Berkelanjutan</span>
+            </div>
+            <div class="stat">
+              <strong>1200+</strong>
+              <span style="color:var(--muted)">Masyarakat Terlayani</span>
+            </div>
+            <div class="stat">
+              <strong>10</strong>
+              <span style="color:var(--muted)">Inovasi & Produk</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="card" style="text-align:center">
+            <img src="https://gambar.cdn/rbls/hero.jpg" alt="Ratu Billah Lingga Suci" style="width:100%;height:220px;object-fit:cover;border-radius:8px;margin-bottom:12px" />
+            <h3 style="margin:0 0 6px">Solusi Berorientasi Masa Depan</h3>
+            <p style="margin:0;color:var(--muted)">Proyek kami fokus pada energi bersih, pemberdayaan masyarakat, dan pelestarian budaya.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:18px">
+          <div style="flex:1;min-width:260px">
+            <div class="card">
+              <h2 style="margin-top:0">Tentang Kami</h2>
+              <p style="color:var(--muted)">Ratu Billah Lingga Suci berdiri dengan misi membawa nilai-nilai tradisional ke ranah solusi modern. Dengan pendekatan kolaboratif, kami merancang program yang menghormati kearifan lokal sekaligus memanfaatkan teknologi untuk hasil yang berkelanjutan.</p>
+              <ul style="color:var(--muted)">
+                <li>Pemberdayaan komunitas</li>
+                <li>Pengembangan produk ramah lingkungan</li>
+                <li>Riset budaya & teknologi terapan</li>
+              </ul>
+            </div>
+          </div>
+
+          <div style="width:360px">
+            <div class="card">
+              <h3 style="margin-top:0">Nilai Inti</h3>
+              <div style="display:grid;gap:8px">
+                <div><strong>Integritas</strong> — Tindakan selaras dengan janji dan nilai.</div>
+                <div><strong>Keberlanjutan</strong> — Solusi untuk generasi sekarang dan mendatang.</div>
+                <div><strong>Kebersamaan</strong> — Melibatkan masyarakat sebagai mitra sejati.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="vision" style="margin-top:18px">
+        <div class="grid">
+          <div class="vision card">
+            <h3>Visi</h3>
+            <p style="color:var(--muted)">Menjadi pelopor integrasi antara tradisi dan teknologi berkelanjutan yang menciptakan dampak sosial-ekonomi pada skala nasional dan regional.</p>
+            <ol style="color:var(--muted)">
+              <li>Menghadirkan inovasi yang melestarikan budaya.</li>
+              <li>Menyediakan model ekonomi inklusif untuk komunitas lokal.</li>
+              <li>Mendorong kebijakan dan praktik ramah lingkungan.</li>
+            </ol>
+          </div>
+
+          <div class="mission card">
+            <h3>Misi</h3>
+            <p style="color:var(--muted)">Melaksanakan proyek nyata melalui kolaborasi multidisiplin, riset terapan, dan pemberdayaan masyarakat untuk menciptakan ekosistem yang tahan lama dan adaptif.</p>
+            <ul style="color:var(--muted)">
+              <li>Kolaborasi dengan komunitas adat dan pemangku kepentingan.</li>
+              <li>Desain produk yang ramah lingkungan dan dapat direplikasi.</li>
+              <li>Pendidikan dan pelatihan untuk kapasitas lokal.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <h3 style="margin-top:20px">Layanan Kami</h3>
+        <div class="grid" style="margin-top:12px">
+          <div class="card">
+            <h4>Riset Budaya & Inovasi</h4>
+            <p style="color:var(--muted)">Studi mendalam untuk menciptakan produk dan layanan yang menghormati tradisi serta memenuhi kebutuhan modern.</p>
+          </div>
+          <div class="card">
+            <h4>Pemberdayaan Komunitas</h4>
+            <p style="color:var(--muted)">Program pelatihan, inkubasi UMKM, dan akses pasar yang meningkatkan pendapatan lokal.</p>
+          </div>
+          <div class="card">
+            <h4>Desain & Produksi Ramah Lingkungan</h4>
+            <p style="color:var(--muted)">Solusi manufaktur berkelanjutan dan rantai pasok yang transparan.</p>
+          </div>
+          <div class="card">
+            <h4>Konsultasi Kebijakan</h4>
+            <p style="color:var(--muted)">Rekomendasi berbasis data untuk kebijakan yang mendukung ekonomi hijau dan pelestarian budaya.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="team" style="margin-top:18px">
+        <h3>Tim Inti</h3>
+        <div class="team-grid" style="margin-top:12px">
+          <div class="member card" style="padding:12px">
+            <img src="https://gambar.cdn/rbls/team1.jpg" alt="Founder" />
+            <div style="font-weight:700">Ratu Billah</div>
+            <div style="color:var(--muted);font-size:13px">Pendiri & Visioner</div>
+          </div>
+          <div class="member card" style="padding:12px">
+            <img src="https://gambar.cdn/rbls/team2.jpg" alt="Chief" />
+            <div style="font-weight:700">Lingga Suci</div>
+            <div style="color:var(--muted);font-size:13px">Direktur Operasional</div>
+          </div>
+          <div class="member card" style="padding:12px">
+            <img src="https://gambar.cdn/rbls/team3.jpg" alt="Head" />
+            <div style="font-weight:700">Maya Putri</div>
+            <div style="color:var(--muted);font-size:13px">Kepala Program</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" style="margin-top:18px">
+        <h3>Hubungi Kami</h3>
+        <div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:12px">
+          <div style="flex:1;min-width:260px">
+            <div class="card">
+              <p style="margin:0 0 8px;color:var(--muted)">Alamat</p>
+              <p style="margin:0 0 12px">Jl. Harmoni Nusantara No.10, Jakarta</p>
+              <p style="margin:0 0 8px;color:var(--muted)">Email</p>
+              <p style="margin:0 0 12px">hello@rbls.co.id</p>
+              <p style="margin:0 0 8px;color:var(--muted)">Telepon</p>
+              <p style="margin:0">+62 21 555 0123</p>
+            </div>
+          </div>
+
+          <div style="flex:1;min-width:300px">
+            <div class="card">
+              <form class="contact-form" onsubmit="event.preventDefault(); alert('Terima kasih! Pesan Anda telah terkirim.');">
+                <input type="text" name="name" placeholder="Nama" required />
+                <input type="email" name="email" placeholder="Email" required />
+                <textarea name="message" rows="4" placeholder="Pesan" required></textarea>
+                <button type="submit">Kirim Pesan</button>
+                <div style="margin-top:8px;font-size:13px;color:var(--muted)">Atau kirim langsung ke <a class="small" href="mailto:hello@rbls.co.id">hello@rbls.co.id</a></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div style="max-width:var(--maxw);margin:0 auto;padding:12px 24px;">
+        &copy; 2026 Ratu Billah Lingga Suci. Semua hak dilindungi.
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
